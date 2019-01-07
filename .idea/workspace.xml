@@ -1,21 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="666f17e6-6f99-4776-9acf-8e7c04ea91b4" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/basic_regression/basic_model.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/basic_text_classification/over_fitting.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/data/face_more_test.tfrecords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/data/face_more_train.tfrecords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/data/face_test.tfrecords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/data/face_train.tfrecords" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/get_data_array.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/face_recognition/train.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_classification/my_model.h5" beforeDir="false" afterPath="$PROJECT_DIR$/basic_classification/my_model.h5" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_classification/weights/my_model.data-00000-of-00001" beforeDir="false" afterPath="$PROJECT_DIR$/basic_classification/weights/my_model.data-00000-of-00001" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_classification/weights/my_model.index" beforeDir="false" afterPath="$PROJECT_DIR$/basic_classification/weights/my_model.index" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/basic_text_classification/basic_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/basic_text_classification/basic_model.py" afterDir="false" />
-    </list>
+    <list default="true" id="666f17e6-6f99-4776-9acf-8e7c04ea91b4" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +28,7 @@
     <session id="-1428479009">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="3" />
+          <entry key="project.closed" value="4" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
@@ -55,13 +41,14 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="checkpoint" value="1" />
+          <entry key="gitignore" value="1" />
           <entry key="py" value="58" />
           <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="PLAIN_TEXT" value="4" />
           <entry key="Python" value="58" />
         </counts>
       </usages-collector>
@@ -130,7 +117,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_text_classification/over_fitting.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="288">
@@ -142,6 +129,15 @@
                 <marker date="1546594195555" expanded="true" signature="1781:1785" ph="..." />
                 <marker date="1546594195555" expanded="true" signature="1781:1786" ph="..." />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="625">
+              <caret line="122" column="6" lean-forward="true" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
             </state>
           </provider>
         </entry>
@@ -453,12 +449,12 @@
     <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24507658" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24507658" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.3377193" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49781182" weight="0.3377193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -836,6 +832,13 @@
             <marker date="1546594195555" expanded="true" signature="1781:1785" ph="..." />
             <marker date="1546594195555" expanded="true" signature="1781:1786" ph="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="625">
+          <caret line="122" column="6" lean-forward="true" selection-start-line="122" selection-start-column="6" selection-end-line="122" selection-end-column="6" />
         </state>
       </provider>
     </entry>
