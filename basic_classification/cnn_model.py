@@ -34,15 +34,15 @@ train_images , val_images , train_labels, val_labels = train_test_split(train_im
 model = keras.Sequential()
 # 第一个卷积层，32个卷积核，大小５x5，卷积模式SAME,激活函数relu,输入张量的大小
 model.add(keras.layers.Conv2D(filters= 32, kernel_size=(5,5), padding='Same', activation='relu',input_shape=(28,28,1)))
-model.add(keras.layers.Conv2D(filters= 32, kernel_size=(5,5), padding='Same', activation='relu'))
+# model.add(keras.layers.Conv2D(filters= 32, kernel_size=(5,5), padding='Same', activation='relu'))
 # 池化层,池化核大小２x2
 model.add(keras.layers.MaxPool2D(pool_size=(2,2)))
 # 随机丢弃四分之一的网络连接，防止过拟合
-model.add(keras.layers.Dropout(0.25))
+# model.add(keras.layers.Dropout(0.25))
 model.add(keras.layers.Conv2D(filters= 64, kernel_size=(3,3), padding='Same', activation='relu'))
-model.add(keras.layers.Conv2D(filters= 64, kernel_size=(3,3), padding='Same', activation='relu'))
+# model.add(keras.layers.Conv2D(filters= 64, kernel_size=(3,3), padding='Same', activation='relu'))
 model.add(keras.layers.MaxPool2D(pool_size=(2,2), strides=(2,2)))
-model.add(keras.layers.Dropout(0.25))
+# model.add(keras.layers.Dropout(0.25))
 # 全连接层,展开操作，
 model.add(keras.layers.Flatten())
 # 添加隐藏层神经元的数量和激活函数
@@ -50,7 +50,7 @@ model.add(keras.layers.Dense(256, activation='relu'))
 model.add(keras.layers.Dropout(0.25))
 # 输出层
 model.add(keras.layers.Dense(10, activation='softmax'))
-
+model.summary()
 
 # 设置优化器
 # lr :学习效率，　decay :lr的衰减值

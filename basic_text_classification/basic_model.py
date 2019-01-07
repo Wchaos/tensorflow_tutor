@@ -64,6 +64,8 @@ model.summary()
 model.compile(optimizer=tf.train.AdamOptimizer(),
               loss='binary_crossentropy',
               metrics=['accuracy'])
+# 启用Tensorboard
+writer = tf.summary.FileWriter("./logpath", tf.get_default_graph())
 # 创建验证集
 val_input = train_input[:10000]
 train_input = train_input[10000:]
