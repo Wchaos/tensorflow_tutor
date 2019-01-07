@@ -64,7 +64,7 @@ class Model(tf.keras.Model):
             self.gru = tf.keras.layers.CuDNNGRU(self.units,
                                                 return_sequences=True,
                                                 recurrent_initializer='glorot_uniform',
-                                                stateful=True),
+                                                stateful=True)
         else:
             self.gru = tf.keras.layers.GRU(self.units,
                                       return_sequences=True,
@@ -73,7 +73,7 @@ class Model(tf.keras.Model):
                                       stateful=True)
         self.fc = tf.keras.layers.Dense(vocab_size)
 
-    def call(self, x):
+    def call(self, x, **kwargs):
         embedding = self.embedding(x)
         # output at every time step
         # output shape == (batch_size, seq_length, hidden_size)
