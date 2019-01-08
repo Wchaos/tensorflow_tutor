@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="666f17e6-6f99-4776-9acf-8e7c04ea91b4" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/senquence/text_generation/prediction.py" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/senquence/text_generation/train_model.py" beforeDir="false" afterPath="$PROJECT_DIR$/senquence/text_generation/train_model.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,7 +17,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_tutor$basic_model__2_.coverage" NAME="basic_model (2) Coverage Results" MODIFIED="1546583208324" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_classification" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$hdwr.coverage" NAME="hdwr Coverage Results" MODIFIED="1545975405984" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$cnn_model.coverage" NAME="cnn_model Coverage Results" MODIFIED="1546497701664" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_classification" />
-    <SUITE FILE_PATH="coverage/tensorflow_tutor$over_fitting.coverage" NAME="over_fitting Coverage Results" MODIFIED="1546593802248" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_text_classification" />
+    <SUITE FILE_PATH="coverage/tensorflow_tutor$over_fitting.coverage" NAME="over_fitting Coverage Results" MODIFIED="1546910535110" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_text_classification" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$first.coverage" NAME="first Coverage Results" MODIFIED="1545962827598" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$eval_model.coverage" NAME="eval_model Coverage Results" MODIFIED="1546488529855" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_classification" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$hdwr_simple.coverage" NAME="hdwr_simple Coverage Results" MODIFIED="1545984963632" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -27,7 +25,7 @@
     <SUITE FILE_PATH="coverage/tensorflow_tutor$fashion_minist.coverage" NAME="fashion_minist Coverage Results" MODIFIED="1546484337204" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_classification" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$hdwr_cnn.coverage" NAME="hdwr_cnn Coverage Results" MODIFIED="1545979637701" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$text_generation.coverage" NAME="text_generation Coverage Results" MODIFIED="1546840366786" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/senquence" />
-    <SUITE FILE_PATH="coverage/tensorflow_tutor$basic_model.coverage" NAME="basic_model Coverage Results" MODIFIED="1546824960444" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_text_classification" />
+    <SUITE FILE_PATH="coverage/tensorflow_tutor$basic_model.coverage" NAME="basic_model Coverage Results" MODIFIED="1546910205721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_text_classification" />
     <SUITE FILE_PATH="coverage/tensorflow_tutor$basic_model__1_.coverage" NAME="basic_model (1) Coverage Results" MODIFIED="1546829318428" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/basic_regression" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -63,13 +61,13 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="dummy" value="67" />
-          <entry key="py" value="7428" />
+          <entry key="py" value="7449" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="7428" />
+          <entry key="Python" value="7449" />
         </counts>
       </usages-collector>
     </session>
@@ -79,8 +77,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_classification/basic_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2088">
-              <caret line="61" column="38" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="38" />
+            <state relative-caret-position="-720">
+              <caret line="7" column="87" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="87" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -91,8 +89,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_text_classification/basic_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="4464">
-              <caret line="127" selection-start-line="127" selection-end-line="127" />
+            <state relative-caret-position="302">
+              <caret line="59" column="57" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="57" />
               <folding>
                 <element signature="e#0#23#0" expanded="true" />
               </folding>
@@ -103,30 +101,30 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/basic_classification/cnn_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2520">
+            <state relative-caret-position="806">
               <caret line="74" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/basic_text_classification/over_fitting.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1800">
-              <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
+            <state relative-caret-position="-32">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#18#0" expanded="true" />
-                <marker date="1546822150340" expanded="true" signature="871:1377" ph="..." />
+                <marker date="1546911430650" expanded="true" signature="871:1377" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/senquence/text_generation/train_model.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="632">
-              <caret line="149" selection-start-line="149" selection-end-line="149" />
+            <state relative-caret-position="324">
+              <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
             </state>
           </provider>
         </entry>
@@ -213,11 +211,11 @@
         <option value="$PROJECT_DIR$/face_recognition/train.py" />
         <option value="$PROJECT_DIR$/basic_classification/basic_model.py" />
         <option value="$PROJECT_DIR$/basic_regression/basic_model.py" />
-        <option value="$PROJECT_DIR$/basic_text_classification/over_fitting.py" />
         <option value="$PROJECT_DIR$/basic_text_classification/basic_model.py" />
         <option value="$PROJECT_DIR$/senquence/text_generation.py" />
         <option value="$PROJECT_DIR$/senquence/text_generation/training_checkpoints/prediction.py" />
         <option value="$PROJECT_DIR$/senquence/text_generation/train_model.py" />
+        <option value="$PROJECT_DIR$/basic_text_classification/over_fitting.py" />
       </list>
     </option>
   </component>
@@ -309,7 +307,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.train_model">
+  <component name="RunManager" selected="Python.over_fitting">
     <configuration name="basic_model (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="tensorflow_tutor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -429,11 +427,11 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.over_fitting" />
+        <item itemvalue="Python.basic_model" />
         <item itemvalue="Python.train_model" />
         <item itemvalue="Python.text_generation" />
         <item itemvalue="Python.basic_model (1)" />
-        <item itemvalue="Python.basic_model" />
-        <item itemvalue="Python.over_fitting" />
       </list>
     </recent_temporary>
   </component>
@@ -460,14 +458,16 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="953" y="0" width="974" height="1047" extended-state="1" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2549234" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32968238" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.3377193" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49781182" visible="true" weight="0.3377193" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -481,7 +481,7 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" weight="0.7549234" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.74726474" />
       <window_info anchor="right" id="Database" order="4" />
     </layout>
     <layout-to-restore>
@@ -776,44 +776,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/senquence/text_generation/prediction.py" />
-    <entry file="file://$PROJECT_DIR$/basic_classification/basic_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2088">
-          <caret line="61" column="38" selection-start-line="61" selection-start-column="30" selection-end-line="61" selection-end-column="38" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_text_classification/basic_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="4464">
-          <caret line="127" selection-start-line="127" selection-end-line="127" />
-          <folding>
-            <element signature="e#0#23#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_classification/cnn_model.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2520">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/basic_text_classification/over_fitting.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1800">
-          <caret line="53" column="26" selection-start-line="53" selection-start-column="26" selection-end-line="53" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#18#0" expanded="true" />
-            <marker date="1546822150340" expanded="true" signature="871:1377" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://C:/ProgramData/Anaconda3/envs/tensorflow/Lib/site-packages/tensorflow/python/data/ops/dataset_ops.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="30240">
@@ -835,10 +797,48 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/basic_classification/cnn_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="806">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_classification/basic_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-720">
+          <caret line="7" column="87" lean-forward="true" selection-start-line="6" selection-start-column="2" selection-end-line="7" selection-end-column="87" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_text_classification/basic_model.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="302">
+          <caret line="59" column="57" selection-start-line="59" selection-start-column="23" selection-end-line="59" selection-end-column="57" />
+          <folding>
+            <element signature="e#0#23#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/senquence/text_generation/train_model.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="632">
-          <caret line="149" selection-start-line="149" selection-end-line="149" />
+        <state relative-caret-position="324">
+          <caret line="74" lean-forward="true" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/basic_text_classification/over_fitting.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-32">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#18#0" expanded="true" />
+            <marker date="1546911430650" expanded="true" signature="871:1377" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
