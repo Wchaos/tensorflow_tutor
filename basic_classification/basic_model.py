@@ -57,11 +57,11 @@ predictions = model.predict(test_images)
 print(predictions[0])
 print(np.argmax(predictions[0]))
 
-# 保存模型
-# Save weights to a TensorFlow Checkpoint file
-model.save_weights('./weights/my_model')
-
-json_string = model.to_json()
-print(json_string)
-
-model.save('my_model.h5')
+# # 保存模型
+# # Save weights to a TensorFlow Checkpoint file
+# model.save_weights('./weights/my_model')
+#
+# json_string = model.to_json()
+# print(json_string)
+#
+# model.save('my_model.h5')
