@@ -64,7 +64,7 @@ class Model(tf.keras.Model):
             self.gru = tf.keras.layers.CuDNNGRU(self.units,
                                                 return_sequences=True,
                                                 recurrent_initializer='glorot_uniform',
-                                                stateful=True),
+                                                stateful=True)
         else:
             self.gru = tf.keras.layers.GRU(self.units,
                                       return_sequences=True,
