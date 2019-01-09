@@ -12,12 +12,7 @@ embedding_dim = 256
 
 # Number of RNN units
 units = 1024
-def tofloat(input,label):
-    return tf.cast(input,tf.float32) ,tf.cast(label,tf.float32)
 
-
-
-dataset = dataset.map(tofloat)
 print(dataset.output_shapes)
 print(dataset.output_types)
 inputs = tf.keras.Input(batch_shape=[BATCH_SIZE,seq_length])  # Returns a placeholder tensor
